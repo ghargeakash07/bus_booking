@@ -1,0 +1,255 @@
+{
+  "file": "D:/go_task/bus_booking/utils/loggers_utils.go:40",
+  "func": "akash-project-go/utils.InitializeLogger",
+  "level": "debug",
+  "msg": "logFileName: 2024-10-21.log",
+  "time": "2024-10-21 23:14:09"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /user/registration        --> akash-project-go/controllers.UserRegistration (5 handlers)
+[GIN-debug] POST   /user/login               --> akash-project-go/controllers.UserLoginRequest (5 handlers)
+[GIN-debug] POST   /user/forgot-passworrd    --> akash-project-go/controllers.ForgotPassword (5 handlers)
+[GIN-debug] POST   /user/validate-otp        --> akash-project-go/controllers.UserOTPValidiation (5 handlers)
+[GIN-debug] POST   /user/booking             --> akash-project-go/controllers.UserBookingBus (6 handlers)
+[GIN-debug] GET    /user/booking-list        --> akash-project-go/controllers.BookingList (6 handlers)
+[GIN-debug] POST   /user/booling-delete/:id  --> akash-project-go/controllers.DeleteBooking (6 handlers)
+[GIN-debug] POST   /user/booking-update/:id  --> akash-project-go/controllers.BookingUpdate (6 handlers)
+[GIN-debug] POST   /user/reset-password      --> akash-project-go/controllers.ResetPasswordUser (6 handlers)
+[GIN-debug] POST   /user/change-password     --> akash-project-go/controllers.ChangePasswordUser (6 handlers)
+[GIN-debug] POST   /admin/registration       --> akash-project-go/controllers.RegistrationAdmin (5 handlers)
+[GIN-debug] POST   /admin/admin-login        --> akash-project-go/controllers.AdminLoginRequest (5 handlers)
+[GIN-debug] GET    /admin/pasenger-list      --> akash-project-go/controllers.BookingAllPassengerList (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :0507
+{
+  "file": "D:/go_task/bus_booking/controllers/user_controller.go:31",
+  "func": "akash-project-go/controllers.UserRegistration",
+  "level": "error",
+  "msg": "Failed to bind request body: EOF",
+  "time": "2024-10-21 23:18:01"
+}
+[GIN] 2024/10/21 - 23:18:01 | 400 |     12.1337ms |             ::1 | POST     "/user/registration"
+{
+  "file": "D:/go_task/bus_booking/controllers/user_controller.go:31",
+  "func": "akash-project-go/controllers.UserRegistration",
+  "level": "error",
+  "msg": "Failed to bind request body: Key: 'UserDetail.Name' Error:Field validation for 'Name' failed on the 'required' tag\nKey: 'UserDetail.Email' Error:Field validation for 'Email' failed on the 'required' tag\nKey: 'UserDetail.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'UserDetail.MobileNo' Error:Field validation for 'MobileNo' failed on the 'required' tag",
+  "time": "2024-10-21 23:18:15"
+}
+[GIN] 2024/10/21 - 23:18:15 | 400 |      5.4165ms |             ::1 | POST     "/user/registration"
+{
+  "file": "D:/go_task/bus_booking/controllers/user_controller.go:31",
+  "func": "akash-project-go/controllers.UserRegistration",
+  "level": "error",
+  "msg": "Failed to bind request body: Key: 'UserDetail.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'UserDetail.MobileNo' Error:Field validation for 'MobileNo' failed on the 'required' tag",
+  "time": "2024-10-21 23:19:10"
+}
+[GIN] 2024/10/21 - 23:19:10 | 400 |      3.6029ms |             ::1 | POST     "/user/registration"
+[GIN] 2024/10/21 - 23:19:59 | 200 |    153.5322ms |             ::1 | POST     "/user/registration"
+{
+  "file": "D:/go_task/bus_booking/controllers/user_controller.go:67",
+  "func": "akash-project-go/controllers.UserLoginRequest",
+  "level": "error",
+  "msg": "Failed to bind request body: EOF",
+  "time": "2024-10-21 23:20:19"
+}
+[GIN] 2024/10/21 - 23:20:19 | 400 |     41.6605ms |             ::1 | POST     "/user/login"
+{
+  "file": "D:/go_task/bus_booking/controllers/user_controller.go:84",
+  "func": "akash-project-go/controllers.UserLoginRequest",
+  "level": "error",
+  "msg": "Invalide Password",
+  "time": "2024-10-21 23:20:44"
+}
+[GIN] 2024/10/21 - 23:20:44 | 500 |    135.1331ms |             ::1 | POST     "/user/login"
+[GIN] 2024/10/21 - 23:20:50 | 200 |    125.4196ms |             ::1 | POST     "/user/login"
+[GIN] 2024/10/21 - 23:21:33 | 401 |     10.4342ms |             ::1 | POST     "/user/booking"
+{
+  "file": "D:/go_task/bus_booking/controllers/booking_user_controller.go:22",
+  "func": "akash-project-go/controllers.UserBookingBus",
+  "level": "error",
+  "msg": "Failed to bind request body: EOF",
+  "time": "2024-10-21 23:21:44"
+}
+[GIN] 2024/10/21 - 23:21:44 | 400 |      3.6326ms |             ::1 | POST     "/user/booking"
+{
+  "file": "D:/go_task/bus_booking/controllers/booking_user_controller.go:53",
+  "func": "akash-project-go/controllers.UserBookingBus",
+  "level": "error",
+  "msg": "Failed to retrieve admin email: record not found",
+  "time": "2024-10-21 23:24:06"
+}
+[GIN] 2024/10/21 - 23:24:06 | 500 |     12.9716ms |             ::1 | POST     "/user/booking"
+[GIN] 2024/10/21 - 23:29:04 | 200 |    135.9565ms |             ::1 | POST     "/admin/registration"
+{
+  "file": "D:/go_task/bus_booking/utils/email_trigger.go:91",
+  "func": "akash-project-go/utils.BookingBusMailTrigger",
+  "level": "info",
+  "msg": "Email sent successfully to akash@gmail.com",
+  "time": "2024-10-21 23:29:18"
+}
+{
+  "file": "D:/go_task/bus_booking/utils/email_trigger.go:91",
+  "func": "akash-project-go/utils.BookingBusMailTrigger",
+  "level": "info",
+  "msg": "Email sent successfully to karan@gmail.com",
+  "time": "2024-10-21 23:29:22"
+}
+[GIN] 2024/10/21 - 23:29:22 | 200 |    7.9918584s |             ::1 | POST     "/user/booking"
+{
+  "file": "D:/go_task/bus_booking/utils/loggers_utils.go:40",
+  "func": "akash-project-go/utils.InitializeLogger",
+  "level": "debug",
+  "msg": "logFileName: 2024-10-21.log",
+  "time": "2024-10-21 23:38:57"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /user/registration        --> akash-project-go/controllers.UserRegistration (5 handlers)
+[GIN-debug] POST   /user/login               --> akash-project-go/controllers.UserLoginRequest (5 handlers)
+[GIN-debug] POST   /user/forgot-passworrd    --> akash-project-go/controllers.ForgotPassword (5 handlers)
+[GIN-debug] POST   /user/validate-otp        --> akash-project-go/controllers.UserOTPValidiation (5 handlers)
+[GIN-debug] POST   /user/booking             --> akash-project-go/controllers.UserBookingBus (6 handlers)
+[GIN-debug] GET    /user/booking-list        --> akash-project-go/controllers.BookingList (6 handlers)
+[GIN-debug] POST   /user/booling-delete/:id  --> akash-project-go/controllers.DeleteBooking (6 handlers)
+[GIN-debug] POST   /user/booking-update/:id  --> akash-project-go/controllers.BookingUpdate (6 handlers)
+[GIN-debug] POST   /user/reset-password      --> akash-project-go/controllers.ResetPasswordUser (6 handlers)
+[GIN-debug] POST   /user/change-password     --> akash-project-go/controllers.ChangePasswordUser (6 handlers)
+[GIN-debug] POST   /admin/registration       --> akash-project-go/controllers.RegistrationAdmin (5 handlers)
+[GIN-debug] POST   /admin/admin-login        --> akash-project-go/controllers.AdminLoginRequest (5 handlers)
+[GIN-debug] GET    /admin/pasenger-list      --> akash-project-go/controllers.BookingAllPassengerList (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :0507
+[GIN] 2024/10/21 - 23:39:48 | 401 |     169.227ms |             ::1 | GET      "/user/booking-list"
+[GIN] 2024/10/21 - 23:40:35 | 200 |      36.542ms |             ::1 | GET      "/user/booking-list"
+{
+  "file": "D:/go_task/bus_booking/controllers/booking_user_controller.go:128",
+  "func": "akash-project-go/controllers.DeleteBooking",
+  "level": "error",
+  "msg": "Failed to Find Booking detail",
+  "time": "2024-10-21 23:41:50"
+}
+[GIN] 2024/10/21 - 23:41:50 | 500 |      90.157ms |             ::1 | POST     "/user/booling-delete/100"
+{
+  "error": "record not found",
+  "file": "D:/go_task/bus_booking/controllers/booking_user_controller.go:173",
+  "func": "akash-project-go/controllers.BookingUpdate",
+  "level": "error",
+  "msg": "Booking not found",
+  "time": "2024-10-21 23:43:40"
+}
+[GIN] 2024/10/21 - 23:43:40 | 404 |    205.9005ms |             ::1 | POST     "/user/booking-update/1"
+[GIN] 2024/10/21 - 23:43:46 | 200 |      85.267ms |             ::1 | POST     "/user/booking-update/2"
+{
+  "file": "D:/go_task/bus_booking/utils/email_trigger.go:165",
+  "func": "akash-project-go/utils.SendOTPEmail",
+  "level": "info",
+  "msg": "OTP email sent successfully to akash@gmail.com",
+  "time": "2024-10-21 23:45:26"
+}
+[GIN] 2024/10/21 - 23:45:27 | 200 |    4.7294987s |             ::1 | POST     "/user/forgot-passworrd"
+{
+  "file": "D:/go_task/bus_booking/utils/email_trigger.go:165",
+  "func": "akash-project-go/utils.SendOTPEmail",
+  "level": "info",
+  "msg": "OTP email sent successfully to akash@gmail.com",
+  "time": "2024-10-21 23:45:43"
+}
+[GIN] 2024/10/21 - 23:45:43 | 200 |    4.3043466s |             ::1 | POST     "/user/forgot-passworrd"
+{
+  "file": "D:/go_task/bus_booking/controllers/user_controller.go:162",
+  "func": "akash-project-go/controllers.UserOTPValidiation",
+  "level": "error",
+  "msg": "Failed to bind request body: EOF",
+  "time": "2024-10-21 23:46:19"
+}
+[GIN] 2024/10/21 - 23:46:19 | 400 |      49.644ms |             ::1 | POST     "/user/validate-otp"
+[GIN] 2024/10/21 - 23:46:52 | 200 |    233.4543ms |             ::1 | POST     "/user/validate-otp"
+[GIN] 2024/10/21 - 23:48:25 | 401 |     67.9927ms |             ::1 | POST     "/user/reset-password"
+[GIN] 2024/10/21 - 23:48:59 | 200 |    217.0084ms |             ::1 | POST     "/user/reset-password"
+[GIN] 2024/10/21 - 23:50:41 | 200 |    263.3338ms |             ::1 | POST     "/user/reset-password"
+{
+  "file": "D:/go_task/bus_booking/controllers/user_controller.go:283",
+  "func": "akash-project-go/controllers.ChangePasswordUser",
+  "level": "error",
+  "msg": "Invalide Password",
+  "time": "2024-10-21 23:53:50"
+}
+[GIN] 2024/10/21 - 23:53:50 | 500 |    369.4709ms |             ::1 | POST     "/user/change-password"
+{
+  "file": "D:/go_task/bus_booking/controllers/user_controller.go:283",
+  "func": "akash-project-go/controllers.ChangePasswordUser",
+  "level": "error",
+  "msg": "Invalide Password",
+  "time": "2024-10-21 23:54:27"
+}
+[GIN] 2024/10/21 - 23:54:27 | 500 |    437.3605ms |             ::1 | POST     "/user/change-password"
+[GIN] 2024/10/21 - 23:55:13 | 200 |    953.5315ms |             ::1 | POST     "/user/change-password"
+{
+  "file": "D:/go_task/bus_booking/controllers/user_controller.go:283",
+  "func": "akash-project-go/controllers.ChangePasswordUser",
+  "level": "error",
+  "msg": "Invalide Password",
+  "time": "2024-10-21 23:55:28"
+}
+[GIN] 2024/10/21 - 23:55:28 | 500 |    221.5808ms |             ::1 | POST     "/user/change-password"
+[GIN] 2024/10/21 - 23:55:44 | 200 |    275.3473ms |             ::1 | POST     "/user/login"
+{
+  "file": "D:/go_task/bus_booking/controllers/user_controller.go:84",
+  "func": "akash-project-go/controllers.UserLoginRequest",
+  "level": "error",
+  "msg": "Invalide Password",
+  "time": "2024-10-21 23:56:18"
+}
+[GIN] 2024/10/21 - 23:56:18 | 500 |    286.4539ms |             ::1 | POST     "/user/login"
+{
+  "file": "D:/go_task/bus_booking/controllers/user_controller.go:67",
+  "func": "akash-project-go/controllers.UserLoginRequest",
+  "level": "error",
+  "msg": "Failed to bind request body: invalid character '}' looking for beginning of object key string",
+  "time": "2024-10-21 23:57:37"
+}
+[GIN] 2024/10/21 - 23:57:37 | 400 |     75.7141ms |             ::1 | POST     "/user/login"
+{
+  "file": "D:/go_task/bus_booking/controllers/user_controller.go:78",
+  "func": "akash-project-go/controllers.UserLoginRequest",
+  "level": "error",
+  "msg": "Invalide email address",
+  "time": "2024-10-21 23:57:46"
+}
+[GIN] 2024/10/21 - 23:57:46 | 500 |    215.0188ms |             ::1 | POST     "/user/login"
+[GIN] 2024/10/21 - 23:58:48 | 404 |     58.6273ms |             ::1 | POST     "/admin/login"
+[GIN] 2024/10/21 - 23:59:17 | 200 |    734.6256ms |             ::1 | POST     "/admin/admin-login"
+[GIN] 2024/10/21 - 23:59:50 | 404 |    105.1221ms |             ::1 | GET      "/admin/passenger-list"
+[GIN] 2024/10/22 - 00:00:12 | 404 |     97.9859ms |             ::1 | GET      "/admin//pasenger-list"
+[GIN] 2024/10/22 - 00:00:45 | 401 |      9.0386ms |             ::1 | GET      "/admin/pasenger-list"
+[GIN] 2024/10/22 - 00:01:24 | 200 |     69.3293ms |             ::1 | GET      "/admin/pasenger-list"
+[GIN] 2024/10/22 - 00:02:27 | 200 |    172.7267ms |             ::1 | POST     "/user/registration"
+[GIN] 2024/10/22 - 00:02:44 | 200 |    195.0309ms |             ::1 | POST     "/user/login"
+{
+  "file": "D:/go_task/bus_booking/utils/email_trigger.go:92",
+  "func": "akash-project-go/utils.BookingBusMailTrigger",
+  "level": "info",
+  "msg": "Email sent successfully to aasha@gmail.com",
+  "time": "2024-10-22 00:03:59"
+}
+{
+  "file": "D:/go_task/bus_booking/utils/email_trigger.go:92",
+  "func": "akash-project-go/utils.BookingBusMailTrigger",
+  "level": "info",
+  "msg": "Email sent successfully to karan@gmail.com",
+  "time": "2024-10-22 00:04:03"
+}
+[GIN] 2024/10/22 - 00:04:04 | 200 |    9.2194928s |             ::1 | POST     "/user/booking"
+[GIN] 2024/10/22 - 00:04:27 | 200 |     59.9073ms |             ::1 | GET      "/user/booking-list"

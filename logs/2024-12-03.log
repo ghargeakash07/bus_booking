@@ -1,0 +1,94 @@
+{
+  "file": "D:/go_task/bus_booking/utils/loggers_utils.go:40",
+  "func": "akash-project-go/utils.InitializeLogger",
+  "level": "debug",
+  "msg": "logFileName: 2024-12-03.log",
+  "time": "2024-12-03 18:11:45"
+}
+{
+  "file": "D:/go_task/bus_booking/database/choice_db.go:27",
+  "func": "akash-project-go/database.InitBookingDB",
+  "level": "error",
+  "msg": "Failed to connect to the database:dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.",
+  "time": "2024-12-03 18:11:45"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /user/registration        --> akash-project-go/controllers.UserRegistration (5 handlers)
+[GIN-debug] POST   /user/login               --> akash-project-go/controllers.UserLoginRequest (5 handlers)
+[GIN-debug] POST   /user/forgot-passworrd    --> akash-project-go/controllers.ForgotPassword (5 handlers)
+[GIN-debug] POST   /user/validate-otp        --> akash-project-go/controllers.UserOTPValidiation (5 handlers)
+[GIN-debug] POST   /user/booking             --> akash-project-go/controllers.UserBookingBus (6 handlers)
+[GIN-debug] GET    /user/booking-list        --> akash-project-go/controllers.BookingList (6 handlers)
+[GIN-debug] POST   /user/booling-delete/:id  --> akash-project-go/controllers.DeleteBooking (6 handlers)
+[GIN-debug] POST   /user/booking-update/:id  --> akash-project-go/controllers.BookingUpdate (6 handlers)
+[GIN-debug] POST   /user/reset-password      --> akash-project-go/controllers.ResetPasswordUser (6 handlers)
+[GIN-debug] POST   /user/change-password     --> akash-project-go/controllers.ChangePasswordUser (6 handlers)
+[GIN-debug] POST   /admin/registration       --> akash-project-go/controllers.RegistrationAdmin (5 handlers)
+[GIN-debug] POST   /admin/admin-login        --> akash-project-go/controllers.AdminLoginRequest (5 handlers)
+[GIN-debug] GET    /admin/pasenger-list      --> akash-project-go/controllers.BookingAllPassengerList (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :0507
+{
+  "file": "D:/go_task/bus_booking/utils/loggers_utils.go:40",
+  "func": "akash-project-go/utils.InitializeLogger",
+  "level": "debug",
+  "msg": "logFileName: 2024-12-03.log",
+  "time": "2024-12-03 18:13:06"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /user/registration        --> akash-project-go/controllers.UserRegistration (5 handlers)
+[GIN-debug] POST   /user/login               --> akash-project-go/controllers.UserLoginRequest (5 handlers)
+[GIN-debug] POST   /user/forgot-passworrd    --> akash-project-go/controllers.ForgotPassword (5 handlers)
+[GIN-debug] POST   /user/validate-otp        --> akash-project-go/controllers.UserOTPValidiation (5 handlers)
+[GIN-debug] POST   /user/booking             --> akash-project-go/controllers.UserBookingBus (6 handlers)
+[GIN-debug] GET    /user/booking-list        --> akash-project-go/controllers.BookingList (6 handlers)
+[GIN-debug] POST   /user/booling-delete/:id  --> akash-project-go/controllers.DeleteBooking (6 handlers)
+[GIN-debug] POST   /user/booking-update/:id  --> akash-project-go/controllers.BookingUpdate (6 handlers)
+[GIN-debug] POST   /user/reset-password      --> akash-project-go/controllers.ResetPasswordUser (6 handlers)
+[GIN-debug] POST   /user/change-password     --> akash-project-go/controllers.ChangePasswordUser (6 handlers)
+[GIN-debug] POST   /admin/registration       --> akash-project-go/controllers.RegistrationAdmin (5 handlers)
+[GIN-debug] POST   /admin/admin-login        --> akash-project-go/controllers.AdminLoginRequest (5 handlers)
+[GIN-debug] GET    /admin/pasenger-list      --> akash-project-go/controllers.BookingAllPassengerList (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :0507
+{
+  "file": "D:/go_task/bus_booking/utils/loggers_utils.go:40",
+  "func": "akash-project-go/utils.InitializeLogger",
+  "level": "debug",
+  "msg": "logFileName: 2024-12-03.log",
+  "time": "2024-12-03 18:14:01"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /user/registration        --> akash-project-go/controllers.UserRegistration (5 handlers)
+[GIN-debug] POST   /user/login               --> akash-project-go/controllers.UserLoginRequest (5 handlers)
+[GIN-debug] POST   /user/forgot-passworrd    --> akash-project-go/controllers.ForgotPassword (5 handlers)
+[GIN-debug] POST   /user/validate-otp        --> akash-project-go/controllers.UserOTPValidiation (5 handlers)
+[GIN-debug] POST   /user/booking             --> akash-project-go/controllers.UserBookingBus (6 handlers)
+[GIN-debug] GET    /user/booking-list        --> akash-project-go/controllers.BookingList (6 handlers)
+[GIN-debug] POST   /user/booling-delete/:id  --> akash-project-go/controllers.DeleteBooking (6 handlers)
+[GIN-debug] POST   /user/booking-update/:id  --> akash-project-go/controllers.BookingUpdate (6 handlers)
+[GIN-debug] POST   /user/reset-password      --> akash-project-go/controllers.ResetPasswordUser (6 handlers)
+[GIN-debug] POST   /user/change-password     --> akash-project-go/controllers.ChangePasswordUser (6 handlers)
+[GIN-debug] POST   /admin/registration       --> akash-project-go/controllers.RegistrationAdmin (5 handlers)
+[GIN-debug] POST   /admin/admin-login        --> akash-project-go/controllers.AdminLoginRequest (5 handlers)
+[GIN-debug] GET    /admin/pasenger-list      --> akash-project-go/controllers.BookingAllPassengerList (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :0507
